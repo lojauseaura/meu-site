@@ -1,0 +1,46 @@
+:root {
+    --purple-light: #E6D7FF;
+    --purple-dark: #6A0DAD;
+  }
+  
+  .bg-light-purple {
+    background-color: var(--purple-light) !important;
+  }
+  
+  .bg-purple-dark {
+    background-color: var(--purple-dark) !important;
+  }
+  
+  .text-purple {
+    color: var(--purple-dark) !important;
+  }
+  
+  .navbar .nav-link {
+    color: var(--purple-dark) !important;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #550a95 !important;
+  }
+  
+  .btn-purple {
+    background-color: var(--purple-dark);
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-purple:hover {
+    background-color: #550a95;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ddd;
+  }
+  
